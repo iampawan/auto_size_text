@@ -1,4 +1,4 @@
-part of auto_size_text;
+part of auto_size_text_pk;
 
 /// Controller to synchronize the fontSize of multiple AutoSizeTexts.
 class AutoSizeGroup {

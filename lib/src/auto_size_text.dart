@@ -1,4 +1,4 @@
-part of auto_size_text;
+part of auto_size_text_pk;
 
 /// Flutter widget that automatically resizes text to fit perfectly within its bounds.
 ///
