@@ -1,4 +1,4 @@
-import 'package:auto_size_text_pk/auto_size_text.dart';
+import 'package:auto_size_text_pk/auto_size_text_pk.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
 
@@ -51,7 +51,7 @@ class GroupTestState extends State<GroupTest> {
   }
 }
 
-_expectFontSizes(WidgetTester tester, double fontSize) {
+void _expectFontSizes(WidgetTester tester, double fontSize) {
   var texts = tester.widgetList(find.byType(Text));
   for (var text in texts) {
     expect(effectiveFontSize(text as Text), fontSize);
