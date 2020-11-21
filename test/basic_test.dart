@@ -13,7 +13,8 @@ void main() {
   });
 
   testWidgets('Crash when text null', (tester) async {
-    expect(() => AutoSizeText(null), throwsAssertionError);
+    // ignore: null_check_always_fails
+    expect(() => AutoSizeText(null!), throwsAssertionError);
   });
 
   testWidgets('Only text (rich)', (tester) async {
@@ -24,7 +25,8 @@ void main() {
   });
 
   testWidgets('Crash when text null (rich)', (tester) async {
-    expect(() => AutoSizeText.rich(null), throwsAssertionError);
+    // ignore: null_check_always_fails
+    expect(() => AutoSizeText.rich(null!), throwsAssertionError);
   });
 
   testWidgets('Uses style fontSize', (tester) async {
