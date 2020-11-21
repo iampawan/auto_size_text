@@ -109,7 +109,8 @@ void main() {
     await tester.pump(Duration.zero);
     _expectFontSizes(tester, 50);
 
-    //TODO remove when flutter bug is fixed https://github.com/flutter/flutter/issues/24166
+    // TODO remove when flutter bug is fixed https://github.com/flutter/flutter/issues/24166
+
     await tester.pumpWidget(Container());
     await tester.pump(Duration.zero);
   });
