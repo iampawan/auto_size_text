@@ -1,6 +1,8 @@
-## 3.0.0-nullsafety.0
+## 3.0.0-nullsafety.1
 
-- Added null safety support
+- BREAKING: opt into null safety
+- upgrade Dart SDK constraints to >=2.12.0-0 <3.0.0
+- upgrade Flutter SDK constraints to >=1.24.0-0 <2.0.0
 
 ## 2.1.0
 
