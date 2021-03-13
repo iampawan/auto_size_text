@@ -1,3 +1,7 @@
+## 3.0.0
+
+Sound Null Safety
+
 ## 3.0.0-nullsafety.1
 
 - BREAKING: opt into null safety
