@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-typedef InputBuilder = Function(String input);
+typedef InputBuilder = Widget Function(String input);
 
 class AnimatedInput extends StatefulWidget {
   final String text;
